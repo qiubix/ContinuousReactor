@@ -1,0 +1,61 @@
+\documentclass[12pt,a4paper,notitlepage]{mwart}
+%\usepackage{polski}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\selectlanguage{polish}
+\usepackage[top=3cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{fancyhdr}
+
+% nazwy kolorow
+\usepackage{color}
+% listingi
+\usepackage{listings}
+\definecolor{dkgreen}{rgb}{0,0.39063,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.50}
+\definecolor{mauve}{rgb}{0.77,0.77,0.77}
+\lstset{ %
+  language=Matlab,                % the language of the code
+  basicstyle=\footnotesize,           % the size of the fonts that are used for the code
+  numbers=left,                   % where to put the line-numbers
+  numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+                                  % will be numbered
+  numbersep=5pt,                  % how far the line-numbers are from the code
+  backgroundcolor=\color{white},      % choose the background color. You must add \usepackage{color}
+  showspaces=false,               % show spaces adding particular underscores
+  frame=single,                   % adds a frame around the code
+  rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  tabsize=2,                      % sets default tabsize to 2 spaces
+  captionpos=b,                   % sets the caption-position to bottom
+  breaklines=true,                % sets automatic line breaking
+                                  % also try caption instead of title
+  keywordstyle=\color{blue},          % keyword style
+  commentstyle=\color{dkgreen},       % comment style
+  stringstyle=\color{mauve},         % string literal style
+}
+
+\lhead{}
+\chead{TAP}
+\rhead{Projekt - etap 1.}
+\lfoot{Hubert Świtalski, Karol Katerżawa}
+
+
+\begin{document}
+
+\pagestyle{fancy}
+
+\section{Symulacja działania obiektu}
+Wyniki symulacji obiektu w Matlabie. 
+
+\section{Ciągłe modele liniowe}
+Równania stanu i transmitancji we wskazanym punkcie pracy. 
+Porównanie z działaniem modelu nieliniowego. 
+
+\section{Dyskretne modele liniowe}
+Równania stanu i transmitancji. 
+
+\end{document}
+
+
+
